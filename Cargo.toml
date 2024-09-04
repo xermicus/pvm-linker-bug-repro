@@ -5,4 +5,4 @@ edition = "2021"
 
 [dependencies]
 polkavm-linker = "0.10"
-revive-runner = { git = "https://github.com/xermicus/revive", branch = "pvm-link-bug" }
+revive-runner = { git = "https://github.com/xermicus/revive", branch = "pvm-link-bug", default-features = false }
