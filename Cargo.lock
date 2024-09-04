@@ -6461,10 +6461,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "polkavm-common"
-version = "0.11.0"
-
-[[package]]
 name = "polkavm-derive"
 version = "0.9.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -6565,19 +6561,6 @@ dependencies = [
  "log",
  "object 0.36.4",
  "polkavm-common 0.10.0",
- "regalloc2 0.9.3",
- "rustc-demangle",
-]
-
-[[package]]
-name = "polkavm-linker"
-version = "0.11.0"
-dependencies = [
- "gimli 0.28.1",
- "hashbrown 0.14.5",
- "log",
- "object 0.36.4",
- "polkavm-common 0.11.0",
  "regalloc2 0.9.3",
  "rustc-demangle",
 ]
@@ -6731,7 +6714,7 @@ dependencies = [
 name = "pvm-linker-bug-repro"
 version = "0.1.0"
 dependencies = [
- "polkavm-linker 0.11.0",
+ "polkavm-linker 0.10.0",
  "revive-runner",
 ]
 
