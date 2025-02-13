@@ -5,4 +5,4 @@ edition = "2021"
 
 [dependencies]
 polkavm-linker = { git = "https://github.com/koute/polkavm" }
-revive-runner = { git = "https://github.com/xermicus/revive", default-features = false }
+revive-runner = { git = "https://github.com/xermicus/revive", branch = "cl/disable-validation", default-features = false }
